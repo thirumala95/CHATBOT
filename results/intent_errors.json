@@ -1,0 +1,18 @@
+[
+  {
+    "text": "no more questions",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "describe_symptom",
+      "confidence": 0.8830057978630066
+    }
+  },
+  {
+    "text": "take care",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_prevention",
+      "confidence": 0.9853572249412537
+    }
+  }
+]

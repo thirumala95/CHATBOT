@@ -1,0 +1,461 @@
+[
+  {
+    "text": "no more questions",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 8,
+        "end": 17,
+        "confidence_entity": 0.9687666893005371,
+        "value": "questions",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am experiencing toxic look (typhos)",
+    "entities": [
+      {
+        "start": 18,
+        "end": 37,
+        "value": "toxic look (typhos)",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 24,
+        "end": 28,
+        "confidence_entity": 0.9722422361373901,
+        "value": "look",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what precautions should I take for malaria",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 35,
+        "end": 42,
+        "confidence_entity": 0.9926521182060242,
+        "value": "malaria",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am experiencing burning micturition",
+    "entities": [
+      {
+        "start": 18,
+        "end": 37,
+        "value": "burning micturition",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 26,
+        "end": 37,
+        "confidence_entity": 0.9257925152778625,
+        "value": "micturition",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I have been having watering from eyes",
+    "entities": [
+      {
+        "start": 19,
+        "end": 37,
+        "value": "watering from eyes",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 19,
+        "end": 27,
+        "confidence_entity": 0.8174711465835571,
+        "value": "watering",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "symptom",
+        "start": 33,
+        "end": 37,
+        "confidence_entity": 0.9999006986618042,
+        "value": "eyes",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how do I stay safe from common cold",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 14,
+        "end": 18,
+        "confidence_entity": 0.5838518142700195,
+        "value": "safe",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "symptom",
+        "start": 24,
+        "end": 30,
+        "confidence_entity": 0.6774507164955139,
+        "value": "common",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "symptom",
+        "start": 31,
+        "end": 35,
+        "confidence_entity": 0.9245195984840393,
+        "value": "cold",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how do I avoid getting a cold",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 15,
+        "end": 22,
+        "confidence_entity": 0.4343845546245575,
+        "value": "getting",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "symptom",
+        "start": 25,
+        "end": 29,
+        "confidence_entity": 0.5967807769775391,
+        "value": "cold",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am experiencing blurred and distorted vision",
+    "entities": [
+      {
+        "start": 18,
+        "end": 46,
+        "value": "blurred and distorted vision",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 18,
+        "end": 25,
+        "confidence_entity": 0.9994021654129028,
+        "value": "blurred",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "symptom",
+        "start": 30,
+        "end": 46,
+        "confidence_entity": 0.9457800984382629,
+        "value": "distorted vision",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I noticed drying and tingling lips",
+    "entities": [
+      {
+        "start": 10,
+        "end": 34,
+        "value": "drying and tingling lips",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 10,
+        "end": 16,
+        "confidence_entity": 0.9793088436126709,
+        "value": "drying",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "symptom",
+        "start": 21,
+        "end": 34,
+        "confidence_entity": 0.67718505859375,
+        "value": "tingling lips",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I have been having fluid overload",
+    "entities": [
+      {
+        "start": 19,
+        "end": 33,
+        "value": "fluid overload",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 25,
+        "end": 33,
+        "confidence_entity": 0.6666364669799805,
+        "value": "overload",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I have increased appetite",
+    "entities": [
+      {
+        "start": 7,
+        "end": 25,
+        "value": "increased appetite",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.5058057308197021,
+        "value": "appetite",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I noticed malaise",
+    "entities": [
+      {
+        "start": 10,
+        "end": 17,
+        "value": "malaise",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I am experiencing puffy face and eyes",
+    "entities": [
+      {
+        "start": 18,
+        "end": 37,
+        "value": "puffy face and eyes",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 18,
+        "end": 23,
+        "confidence_entity": 0.9670964479446411,
+        "value": "puffy",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "symptom",
+        "start": 24,
+        "end": 28,
+        "confidence_entity": 0.9598910808563232,
+        "value": "face",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "symptom",
+        "start": 33,
+        "end": 37,
+        "confidence_entity": 0.9999432563781738,
+        "value": "eyes",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I have abdominal pain and loss of appetite and nausea",
+    "entities": [
+      {
+        "start": 7,
+        "end": 21,
+        "value": "abdominal pain",
+        "entity": "symptom"
+      },
+      {
+        "start": 26,
+        "end": 42,
+        "value": "loss of appetite",
+        "entity": "symptom"
+      },
+      {
+        "start": 47,
+        "end": 53,
+        "value": "nausea",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 7,
+        "end": 21,
+        "confidence_entity": 0.529086172580719,
+        "value": "abdominal pain",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "symptom",
+        "start": 26,
+        "end": 33,
+        "confidence_entity": 0.9995203018188477,
+        "value": "loss of",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "symptom",
+        "start": 47,
+        "end": 53,
+        "confidence_entity": 0.9961047172546387,
+        "value": "nausea",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what can I do to avoid this disease",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 28,
+        "end": 35,
+        "confidence_entity": 0.7009543180465698,
+        "value": "disease",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how do I prevent infection",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 17,
+        "end": 26,
+        "confidence_entity": 0.9952213168144226,
+        "value": "infection",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I have cold hands and feets",
+    "entities": [
+      {
+        "start": 7,
+        "end": 27,
+        "value": "cold hands and feets",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 22,
+        "end": 27,
+        "confidence_entity": 0.9983367919921875,
+        "value": "feets",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I have fast heart rate",
+    "entities": [
+      {
+        "start": 7,
+        "end": 22,
+        "value": "fast heart rate",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 7,
+        "end": 11,
+        "confidence_entity": 0.9791898727416992,
+        "value": "fast",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "symptom",
+        "start": 18,
+        "end": 22,
+        "confidence_entity": 0.9948497414588928,
+        "value": "rate",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I have receiving unsterile injections",
+    "entities": [
+      {
+        "start": 7,
+        "end": 37,
+        "value": "receiving unsterile injections",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 7,
+        "end": 16,
+        "confidence_entity": 0.9999099969863892,
+        "value": "receiving",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "symptom",
+        "start": 17,
+        "end": 26,
+        "confidence_entity": 0.9571705460548401,
+        "value": "unsterile",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

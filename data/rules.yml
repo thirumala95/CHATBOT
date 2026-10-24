@@ -1,0 +1,33 @@
+version: "3.1"
+
+rules:
+
+- rule: Say hi
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Respond to symptoms
+  steps:
+  - intent: describe_symptom
+  - action: action_match_disease
+
+- rule: Respond to prevention question
+  steps:
+  - intent: ask_prevention
+  - action: utter_prevention_response
+
+- rule: Fallback for unclear input
+  steps:
+  - intent: nlu_fallback
+  - action: utter_default
+
+- rule: Out of scope
+  steps:
+  - intent: out_of_scope
+  - action: utter_default

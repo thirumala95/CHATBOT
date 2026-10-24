@@ -1,0 +1,52 @@
+{
+  "ask_prevention": {
+    "precision": 0.9285714285714286,
+    "recall": 1.0,
+    "f1-score": 0.962962962962963,
+    "support": 13,
+    "confused_with": {}
+  },
+  "describe_symptom": {
+    "precision": 0.9928057553956835,
+    "recall": 1.0,
+    "f1-score": 0.996389891696751,
+    "support": 138,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 16,
+    "confused_with": {}
+  },
+  "goodbye": {
+    "precision": 1.0,
+    "recall": 0.8823529411764706,
+    "f1-score": 0.9375,
+    "support": 17,
+    "confused_with": {
+      "describe_symptom": 1,
+      "ask_prevention": 1
+    }
+  },
+  "accuracy": 0.9891304347826086,
+  "macro avg": {
+    "precision": 0.9803442959917781,
+    "recall": 0.9705882352941176,
+    "f1-score": 0.9742132136649285,
+    "support": 184
+  },
+  "weighted avg": {
+    "precision": 0.989557732695831,
+    "recall": 0.9891304347826086,
+    "f1-score": 0.9889012150688596,
+    "support": 184
+  },
+  "micro avg": {
+    "precision": 0.9891304347826086,
+    "recall": 0.9891304347826086,
+    "f1-score": 0.9891304347826086,
+    "support": 184
+  }
+}

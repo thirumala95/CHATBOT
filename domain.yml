@@ -1,0 +1,39 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - describe_symptom
+  - ask_prevention
+  - out_of_scope
+
+entities:
+  - symptom
+
+slots:
+  symptom:
+    type: list
+    mappings:
+    - type: from_entity
+      entity: symptom
+
+responses:
+  utter_greet:
+  - text: "Hi! I'm a health awareness assistant. You can describe your symptoms or ask about disease prevention. Note: I don't provide medical diagnosis — always consult a doctor for serious concerns."
+
+  utter_goodbye:
+  - text: "Take care! Remember to consult a doctor if your symptoms persist."
+
+  utter_prevention_response:
+  - text: "General prevention tips: stay hydrated, maintain hygiene, avoid mosquito breeding areas, eat clean food, and get vaccinated where applicable. Ask me about a specific disease for more targeted tips!"
+
+  utter_default:
+  - text: "Sorry, I didn't understand that. Please describe your symptoms (for example: fever, cough, headache, rash) or ask about disease prevention."
+   
+  
+actions:
+  - action_match_disease
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_next_session: true

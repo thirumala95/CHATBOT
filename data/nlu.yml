@@ -1,0 +1,202 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - good morning
+    - hey there
+    - good evening
+    - hi bot
+    - hello, I need some help
+    - hey, can you help me
+    - hi there
+    - namaste
+    - hello doctor bot
+    - namaskar
+    - namaste doctor
+    - hello namaste
+    - hi namaste
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+    - see you later
+    - thanks, bye
+    - that's all, thank you
+    - okay bye
+    - talk to you later
+    - have a nice day
+    - thank you, that helped
+    - I'm done for now
+    - have a great day
+    - have a good day
+    - take care
+    - I'm done
+    - that's all for now
+    - no more questions
+
+- intent: ask_prevention
+  examples: |
+    - how can I prevent flu
+    - what precautions should I take for malaria
+    - how to avoid dengue
+    - prevention tips for typhoid
+    - how do I stay safe from common cold
+    - how can I prevent dengue
+    - how do I avoid getting a cold
+    - what precautions should I take
+    - how can I protect myself from flu
+    - what can I do to avoid this disease
+    - any precautions for this
+    - how do I prevent infection
+    - ways to prevent jaundice
+
+- intent: describe_symptom
+  examples: |
+    - I have [abdominal pain](symptom)
+    - I am experiencing [abnormal menstruation](symptom)
+    - I have been having [acidity](symptom)
+    - I noticed [acute liver failure](symptom)
+    - I have [altered sensorium](symptom)
+    - I am experiencing [anxiety](symptom)
+    - I have been having [back pain](symptom)
+    - I noticed [belly pain](symptom)
+    - I have [blackheads](symptom)
+    - I am experiencing [bladder discomfort](symptom)
+    - I have been having [blister](symptom)
+    - I noticed [blood in sputum](symptom)
+    - I have [bloody stool](symptom)
+    - I am experiencing [blurred and distorted vision](symptom)
+    - I have been having [breathlessness](symptom)
+    - I noticed [brittle nails](symptom)
+    - I have [bruising](symptom)
+    - I am experiencing [burning micturition](symptom)
+    - I have been having [chest pain](symptom)
+    - I noticed [chills](symptom)
+    - I have [cold hands and feets](symptom)
+    - I am experiencing [coma](symptom)
+    - I have been having [congestion](symptom)
+    - I noticed [constipation](symptom)
+    - I have [continuous feel of urine](symptom)
+    - I am experiencing [continuous sneezing](symptom)
+    - I have been having [cough](symptom)
+    - I noticed [cramps](symptom)
+    - I have [dark urine](symptom)
+    - I am experiencing [dehydration](symptom)
+    - I have been having [depression](symptom)
+    - I noticed [diarrhoea](symptom)
+    - I have [dischromic  patches](symptom)
+    - I am experiencing [distention of abdomen](symptom)
+    - I have been having [dizziness](symptom)
+    - I noticed [drying and tingling lips](symptom)
+    - I have [enlarged thyroid](symptom)
+    - I am experiencing [excessive hunger](symptom)
+    - I have been having [extra marital contacts](symptom)
+    - I noticed [family history](symptom)
+    - I have [fast heart rate](symptom)
+    - I am experiencing [fatigue](symptom)
+    - I have been having [fluid overload](symptom)
+    - I noticed [foul smell of urine](symptom)
+    - I have [headache](symptom)
+    - I am experiencing [high fever](symptom)
+    - I have been having [hip joint pain](symptom)
+    - I noticed [history of alcohol consumption](symptom)
+    - I have [increased appetite](symptom)
+    - I am experiencing [indigestion](symptom)
+    - I have been having [inflammatory nails](symptom)
+    - I noticed [internal itching](symptom)
+    - I have [irregular sugar level](symptom)
+    - I am experiencing [irritability](symptom)
+    - I have been having [irritation in anus](symptom)
+    - I noticed [itching](symptom)
+    - I have [joint pain](symptom)
+    - I am experiencing [knee pain](symptom)
+    - I have been having [lack of concentration](symptom)
+    - I noticed [lethargy](symptom)
+    - I have [loss of appetite](symptom)
+    - I am experiencing [loss of balance](symptom)
+    - I have been having [loss of smell](symptom)
+    - I noticed [malaise](symptom)
+    - I have [mild fever](symptom)
+    - I am experiencing [mood swings](symptom)
+    - I have been having [movement stiffness](symptom)
+    - I noticed [mucoid sputum](symptom)
+    - I have [muscle pain](symptom)
+    - I am experiencing [muscle wasting](symptom)
+    - I have been having [muscle weakness](symptom)
+    - I noticed [nausea](symptom)
+    - I have [neck pain](symptom)
+    - I am experiencing [nodal skin eruptions](symptom)
+    - I have been having [obesity](symptom)
+    - I noticed [pain behind the eyes](symptom)
+    - I have [pain during bowel movements](symptom)
+    - I am experiencing [pain in anal region](symptom)
+    - I have been having [painful walking](symptom)
+    - I noticed [palpitations](symptom)
+    - I have [passage of gases](symptom)
+    - I am experiencing [patches in throat](symptom)
+    - I have been having [phlegm](symptom)
+    - I noticed [polyuria](symptom)
+    - I have [prominent veins on calf](symptom)
+    - I am experiencing [puffy face and eyes](symptom)
+    - I have been having [pus filled pimples](symptom)
+    - I noticed [receiving blood transfusion](symptom)
+    - I have [receiving unsterile injections](symptom)
+    - I am experiencing [red sore around nose](symptom)
+    - I have been having [red spots over body](symptom)
+    - I noticed [redness of eyes](symptom)
+    - I have [restlessness](symptom)
+    - I am experiencing [runny nose](symptom)
+    - I have been having [rusty sputum](symptom)
+    - I noticed [scurring](symptom)
+    - I have [shivering](symptom)
+    - I am experiencing [silver like dusting](symptom)
+    - I have been having [sinus pressure](symptom)
+    - I noticed [skin peeling](symptom)
+    - I have [skin rash](symptom)
+    - I am experiencing [slurred speech](symptom)
+    - I have been having [small dents in nails](symptom)
+    - I noticed [spinning movements](symptom)
+    - I have [spotting  urination](symptom)
+    - I am experiencing [stiff neck](symptom)
+    - I have been having [stomach bleeding](symptom)
+    - I noticed [stomach pain](symptom)
+    - I have [sunken eyes](symptom)
+    - I am experiencing [sweating](symptom)
+    - I have been having [swelled lymph nodes](symptom)
+    - I noticed [swelling joints](symptom)
+    - I have [swelling of stomach](symptom)
+    - I am experiencing [swollen blood vessels](symptom)
+    - I have been having [swollen extremeties](symptom)
+    - I noticed [swollen legs](symptom)
+    - I have [throat irritation](symptom)
+    - I am experiencing [toxic look (typhos)](symptom)
+    - I have been having [ulcers on tongue](symptom)
+    - I noticed [unsteadiness](symptom)
+    - I have [visual disturbances](symptom)
+    - I am experiencing [vomiting](symptom)
+    - I have been having [watering from eyes](symptom)
+    - I noticed [weakness in limbs](symptom)
+    - I have [weakness of one body side](symptom)
+    - I am experiencing [weight gain](symptom)
+    - I have been having [weight loss](symptom)
+    - I noticed [yellow crust ooze](symptom)
+    - I have [yellow urine](symptom)
+    - I am experiencing [yellowing of eyes](symptom)
+    - I have been having [yellowish skin](symptom)
+    - I have [fever](symptom) and [headache](symptom) and [vomiting](symptom)
+    - I have [skin rash](symptom) and [itching](symptom)
+    - I have [chest pain](symptom) and [breathlessness](symptom)
+    - I have [yellowish skin](symptom) and [dark urine](symptom)
+    - I have [joint pain](symptom) and [muscle pain](symptom) and [high fever](symptom)
+    - I have [cough](symptom) and [chills](symptom) and [fatigue](symptom)
+    - I have [abdominal pain](symptom) and [loss of appetite](symptom) and [nausea](symptom)
+
+- regex: symptom
+  examples: |
+    - abdominal pain|abnormal menstruation|acidity|acute liver failure|altered sensorium|anxiety|back pain|belly pain|blackheads|bladder discomfort|blister|blood in sputum|bloody stool|blurred and distorted vision|breathlessness|brittle nails|bruising|burning micturition|chest pain|chills|cold hands and feets|coma|congestion|constipation|continuous feel of urine|continuous sneezing|cough|cramps|dark urine|dehydration|depression|diarrhoea|dischromic  patches|distention of abdomen|dizziness|drying and tingling lips|enlarged thyroid|excessive hunger|extra marital contacts|family history|fast heart rate|fatigue|fluid overload|foul smell of urine|headache|high fever|hip joint pain|history of alcohol consumption|increased appetite|indigestion|inflammatory nails|internal itching|irregular sugar level|irritability|irritation in anus|itching|joint pain|knee pain|lack of concentration|lethargy|loss of appetite|loss of balance|loss of smell|malaise|mild fever|mood swings|movement stiffness|mucoid sputum|muscle pain|muscle wasting|muscle weakness|nausea|neck pain|nodal skin eruptions|obesity|pain behind the eyes|pain during bowel movements|pain in anal region|painful walking|palpitations|passage of gases|patches in throat|phlegm|polyuria|prominent veins on calf|puffy face and eyes|pus filled pimples|receiving blood transfusion|receiving unsterile injections|red sore around nose|red spots over body|redness of eyes|restlessness|runny nose|rusty sputum|scurring|shivering|silver like dusting|sinus pressure|skin peeling|skin rash|slurred speech|small dents in nails|spinning movements|spotting  urination|stiff neck|stomach bleeding|stomach pain|sunken eyes|sweating|swelled lymph nodes|swelling joints|swelling of stomach|swollen blood vessels|swollen extremeties|swollen legs|throat irritation|toxic look (typhos)|ulcers on tongue|unsteadiness|visual disturbances|vomiting|watering from eyes|weakness in limbs|weakness of one body side|weight gain|weight loss|yellow crust ooze|yellow urine|yellowing of eyes|yellowish skin

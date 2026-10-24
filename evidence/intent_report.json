@@ -1,0 +1,54 @@
+{
+  "describe_symptom": {
+    "precision": 0.9857142857142858,
+    "recall": 1.0,
+    "f1-score": 0.9928057553956835,
+    "support": 138,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.9565217391304348,
+    "support": 12,
+    "confused_with": {
+      "describe_symptom": 1
+    }
+  },
+  "goodbye": {
+    "precision": 1.0,
+    "recall": 0.8181818181818182,
+    "f1-score": 0.9,
+    "support": 11,
+    "confused_with": {
+      "describe_symptom": 1,
+      "ask_prevention": 1
+    }
+  },
+  "ask_prevention": {
+    "precision": 0.9285714285714286,
+    "recall": 1.0,
+    "f1-score": 0.962962962962963,
+    "support": 13,
+    "confused_with": {}
+  },
+  "accuracy": 0.9827586206896551,
+  "macro avg": {
+    "precision": 0.9785714285714286,
+    "recall": 0.9337121212121212,
+    "f1-score": 0.9530726143722703,
+    "support": 174
+  },
+  "weighted avg": {
+    "precision": 0.9833333333333335,
+    "recall": 0.9827586206896551,
+    "f1-score": 0.9822067450154487,
+    "support": 174
+  },
+  "micro avg": {
+    "precision": 0.9827586206896551,
+    "recall": 0.9827586206896551,
+    "f1-score": 0.9827586206896551,
+    "support": 174
+  }
+}

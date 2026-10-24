@@ -1,0 +1,22 @@
+version: "3.1"
+
+stories:
+
+- story: greet and describe symptom
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: describe_symptom
+  - action: action_match_disease
+
+- story: ask about prevention
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_prevention
+  - action: utter_prevention_response
+
+- story: say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
